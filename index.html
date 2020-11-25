@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+        <figure class="logo">
+            <img class="logo" src="images/logo.svg" height="50px" alt="Logo">
+        </figure>
+        <nav class="menu">
+            <ol>
+                <li>
+                    <a class="link" href="#">Features</a>
+                </li>
+                <li>
+                    <a class="link" href="#">Team</a>
+                </li>
+                <li>
+                    <a class="link" href="#">Sign In</a>
+                </li>
+            </ol>
+        </nav>
+    </div>
+  </header>
+  <section id="start" class="section">
+    <div class="container">
+      <article class="start-text">
+        <h2 class="title">All your files in one secure location, accessible anywhere.</h2>
+        <h6 class="text">Fylo stores your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.
+        </h6> 
+        <form class="form-inline first-form">
+          <div class="form-group mb-2">
+            <input type="password" class="form-control input" id="inputPassword" placeholder="Enter your email...">
+          </div>
+          <button type="submit" class="btn btn-primary mb-2 button">Get Started</button>
+        </form>
+      </article>
+      <figure class="start-image">
+        <img class="image" width="530px" src="images/illustration-1.svg" alt="Imagen1">
+      </figure>
+    </div>
+  </section>
+  <img class="container curve" width="100%" src="images/bg-curve-desktop.svg" alt="Image-curve">
+  <section id="second" class="section">
+    <div class="container second">
+      <article class="article-section-third"> 
+        <h2 class="title-second">Stay productive, wherever you are</h2>
+        <h6 class="text section-second">
+        Never let location be an issue when accessing your files. Fylo has you 
+        covered for all of your file storage needs.</br></br>
+        Securely share files and folders with friends, family and colleagues for 
+        live collaboration. No email attachments required!
+        </h6>
+        <div class="arrow-section">
+          <h6 class="text-green">See how Fylo works</h6>   
+          <img class="image-arrow" src="images/icon-arrow.svg" alt="Imagen-arrow">
+        </div>
+        <div class="card card-width">
+          <div class="card-body">
+            <img class="icon-quotes" src="images/icon-quotes.svg" alt="quotes">
+            <p class="card-text text-quote">Fylo has improved our team productivity by an order of magnitude. Since 
+              making the switch our team has become a well-oiled collaboration machine.</p>
+            <div class="autor">
+              <img class="autor-image" width="30px" src="images/avatar-testimonial.jpg" alt="avatar">
+              <p class="autor-quote"> <strong>Kyle Burton</strong> </br>Founder & CEO, Huddle</p>
+            </div>
+          </div>
+        </div>      
+      </article>
+      <figure class="second-image">
+        <img class="image" width="500px" src="images/illustration-2.svg" alt="Imagen2">
+      </figure>
+    </div>
+  </section>
+  <section id="third" class="section-other">
+    <div class="container third">
+      <article class="start-text"> 
+        <h3 class="title-third">Get early access today</h3>
+        <h6 class="text section-third">
+          It only takes a minute to sign up and our free starter tier is extremely generous. 
+          If you have any questions, our support team would be happy to help you.
+        </h6>
+      </article>
+      <form class="form-section-third">
+        <div class="form-group mb-2">
+          <input type="password" class="form-control input-section-third" id="inputPassword" placeholder="email@example.com">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2 button-section-third">Get Started For Free</button>
+      </form>
+    </div>
+    
+  </section>
+  <footer id="footer" class="section ">
+    <div class="container footer">
+      <figure class="logo-footer">
+        <img src="images/logo.svg" height="50px" alt="Logo">
+      </figure>
+      <div class="footer-info">
+        <article class="footer-column"> 
+          <div class="info-section">
+            <img class="image-icon-info" src="images/icon-phone.svg" alt="icon-face">
+            <p class="white">Phone: +1-543-123-4567</p> 
+          </div>
+          <div class="info-section">
+            <img class="image-icon-info" src="images/icon-email.svg" alt="icon-face">
+            <p class="white">example@fylo.com</p> 
+          </div>
+        </article>
+        <article class="footer-column">
+          <p class="white">About Us</p>
+          <p class="white">Jobs</p>
+          <p class="white">Press</p>
+          <p class="white">Blog</p>
+        </article>
+        <article class="footer-column">
+          <p class="white">Contact Us</p>  
+          <p class="white">Terms</p> 
+          <p class="white">Privacy</p> 
+        </article>
+        <article class="last-column">
+          <img class="image-icon" src="images/facebook.svg" alt="icon-face">
+          <img class="image-icon" src="images/twitter.svg" alt="icon-face">
+          <img class="image-icon" src="images/instagram.svg" alt="icon-face">
+        </article>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
